@@ -14,6 +14,5 @@ public class Employee {
         Employee employee = new Employee();
         int result = employee.compareDates(2024,12,30,2020,7,15);
         System.out.println("result: " + result); // result: 1
-        // -1, если первая дата меньше, 0, если они равны, 1, если первая дата больше.
     }
 }
